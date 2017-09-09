@@ -17,6 +17,7 @@ export default {
 
 <style lang="scss">
 html {
+	font-family: Helvetica, sans-serif;
 	font-size: 16px;
 }
 

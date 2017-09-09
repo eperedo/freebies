@@ -1,7 +1,10 @@
 <template>
 	<section class="form-container">
 		<form name="frm">
-			Form
+			<picture>
+				<img src="/static/img/female.png" alt="Freebies female" />
+				<img src="/static/img/male.png" alt="Freebies male" />
+			</picture>
 		</form>
 	</section>
 </template>
