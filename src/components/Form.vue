@@ -3,15 +3,15 @@
 		<form name="frm" class="form-container">
 			<div class="form-section">
 				<label for="name">Name</label>
-				<input id="name" type="text" placeholder="Foo Bar" />
+				<input id="name" type="text" placeholder="Foo Bar" required />
 			</div>
 			<div class="form-section">
 				<label for="date-of-birth">Date of Birth</label>
-				<input id="date-of-birth" type="date" placeholder="01/01/2018" />
+				<input id="date-of-birth" type="date" placeholder="01/01/2018" required />
 			</div>
 			<div class="form-section">
 				<label for="email">Email</label>
-				<input id="email" type="email" placeholder="foo@bar.com" />
+				<input id="email" type="email" placeholder="foo@bar.com" required />
 			</div>
 			<div class="form-section">
 				<label for="mobile">Mobile</label>
@@ -59,7 +59,7 @@ export default {
 
 		&.primary {
 			background-color: map-get($colors, light-green);
-			color: map-get($colors, white);
+			color: map-get($colors, dark-grey);
 			margin-left: 7%;
 		}
 	}
