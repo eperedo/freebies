@@ -30,11 +30,8 @@
 </template>
 
 <script>
-import FreebiesLoading from './Loading';
-
 export default {
 	name: 'freebies-form',
-	loading: FreebiesLoading,
 };
 </script>
 

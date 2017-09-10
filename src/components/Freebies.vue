@@ -6,6 +6,7 @@
 </template>
 
 <script>
+import FreebiesLoading from './Loading';
 
 export default {
 	name: 'freebies',
@@ -13,6 +14,7 @@ export default {
 		FreebiesAvatar: () => import('./Avatar'),
 		FreebiesForm: () => import('./Form'),
 	},
+	loading: FreebiesLoading,
 };
 </script>
 
