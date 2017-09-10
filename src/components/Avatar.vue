@@ -20,11 +20,9 @@
 </template>
 
 <script>
-import FreebiesLoading from './Loading';
 
 export default {
 	name: 'freebies-avatar',
-	loading: FreebiesLoading,
 };
 </script>
 
