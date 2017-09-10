@@ -5,15 +5,6 @@
 				<label for="name">Name</label>
 				<input id="name" type="text" placeholder="Foo Bar" />
 			</div>
-			<!-- <div class="form-section">
-																		<label for="name">Gender</label>
-																		<picture>
-																			<img src="/static/img/female.png" alt="Freebies female" height="17" width="17" />
-																		</picture>
-																		<picture>
-																			<img src="/static/img/male.png" alt="Freebies male" height="17" width="17" />
-																		</picture>
-																	</div> -->
 			<div class="form-section">
 				<label for="date-of-birth">Date of Birth</label>
 				<input id="date-of-birth" type="date" placeholder="01/01/2018" />
@@ -31,7 +22,7 @@
 				<input id="customer" type="text" placeholder="553-CSD1" />
 			</div>
 			<div class="form-section actions">
-				<button type="reset" class="btn grey">Cancel</button>
+				<button type="reset" class="btn">Cancel</button>
 				<button type="submit" class="btn primary">Save</button>
 			</div>
 		</form>
@@ -61,6 +52,7 @@ export default {
 		background: #F5F8F9;
 		border: none;
 		border-radius: 2.64px;
+		font-weight: bolder;
 		height: 26.48px;
 		text-transform: uppercase;
 		width: 79px;
