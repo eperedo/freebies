@@ -22,8 +22,7 @@ export default {
 .freebies-container {
 	border-radius: 21.25px 0 0 21.25px;
 	display: flex;
-	height: 446px;
-	margin: 0 auto;
+	height: 446px; // margin: 0 auto;
 	width: 680px;
 }
 </style>

@@ -21,7 +21,15 @@ html {
 	font-size: 16px;
 }
 
+body {
+	height: 100vh;
+}
+
 .app-container {
+	align-items: center;
 	background-color: #f8f8f8;
+	display: flex;
+	height: 100%;
+	justify-content: center;
 }
 </style>
