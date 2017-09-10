@@ -27,11 +27,21 @@
 		<link rel="<%= chunk.initial?'preload':'prefetch' %>" href="<%= htmlWebpackPlugin.files.publicPath + file %>" as="<%= file.match(/\.css$/)?'style':'script' %>">
 		<% }}} %>
 </head>
+<style>
+	.thanks-to {
+		background-color: #f8f8f8;
+		margin: 0;
+		text-align: center;
+	}
+</style>
 
 <body>
 	<noscript>
 		This is your fallback content in case JavaScript fails to load.
 	</noscript>
+	<p class="thanks-to">Design from
+		<a target="_blank" rel="noopener" href="https://d13yacurqjgara.cloudfront.net/users/218187/screenshots/2921897/attachments/606256/freebies.sketch, https://sketchrepo.com/free-sketch/form-ui-freebie/">here</a>
+	</p>
 	<div id="app"></div>
 	<!-- Todo: only include in production -->
 	<%= htmlWebpackPlugin.options.serviceWorkerLoader %>
