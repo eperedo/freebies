@@ -6,14 +6,12 @@
 </template>
 
 <script>
-import FreebiesAvatar from './Avatar';
-import FreebiesForm from './Form';
 
 export default {
 	name: 'freebies',
 	components: {
-		FreebiesAvatar,
-		FreebiesForm,
+		FreebiesAvatar: () => import('./Avatar'),
+		FreebiesForm: () => import('./Form'),
 	},
 };
 </script>
