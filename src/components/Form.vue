@@ -6,14 +6,14 @@
 				<input id="name" type="text" placeholder="Foo Bar" />
 			</div>
 			<!-- <div class="form-section">
-																	<label for="name">Gender</label>
-																	<picture>
-																		<img src="/static/img/female.png" alt="Freebies female" height="17" width="17" />
-																	</picture>
-																	<picture>
-																		<img src="/static/img/male.png" alt="Freebies male" height="17" width="17" />
-																	</picture>
-																</div> -->
+																		<label for="name">Gender</label>
+																		<picture>
+																			<img src="/static/img/female.png" alt="Freebies female" height="17" width="17" />
+																		</picture>
+																		<picture>
+																			<img src="/static/img/male.png" alt="Freebies male" height="17" width="17" />
+																		</picture>
+																	</div> -->
 			<div class="form-section">
 				<label for="date-of-birth">Date of Birth</label>
 				<input id="date-of-birth" type="date" placeholder="01/01/2018" />
@@ -48,8 +48,8 @@ export default {
 .form-wrapper {
 	background: map-get($colors, white);
 	border-radius: 0 21.25px 21.25px 0;
-	padding: 10%;
-	max-width: 403.75px;
+	padding: 10% 0 0 10%;
+	width: 403.75px;
 }
 
 .form-container {
