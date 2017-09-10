@@ -15,16 +15,7 @@ export default {
 };
 </script>
 
-<style lang="scss">
-html {
-	font-family: Helvetica, sans-serif;
-	font-size: 16px;
-}
-
-body {
-	height: 100vh;
-}
-
+<style lang="scss" scoped>
 .app-container {
 	align-items: center;
 	background-color: #f8f8f8;
